@@ -1,0 +1,32 @@
+.c2{
+    color: white;
+    background-color: black;
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+.c2:hover{
+    background-color: gray;
+}
+.c1{
+    position: relative;
+    display: inline-block;
+}
+.c3{
+    display:none ;
+    position: absolute;
+    min-width: 102px;
+    z-index: 1;
+    background-color: black;
+}
+.c1:hover .c3{
+    display: block;
+}
+.c3 a{
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+    color: white;
+    background-color: gray;
+    
+}
